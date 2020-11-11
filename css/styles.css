@@ -329,8 +329,8 @@ color: #FFFFFF;
   top: 0;
   left: 0;
   width: 100%;
-height: 581px;
-background-color:  rgba(0, 0, 0, 0);
+height: 100%;
+background-color:  rgba(0, 0, 0, 0.2);
 
 }
 
@@ -343,7 +343,7 @@ background-color:  rgba(0, 0, 0, 0);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -15%);
+  transform: translate(-50%, -50%);
   
   width: 528px;
 height: 581px;
@@ -773,6 +773,10 @@ padding-bottom: 30px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  .socials li:not(:last-child){
+    margin-right: 10px;
+    }
+
   .team-social-link:hover .social-icon{
  fill: white;
   }
@@ -781,21 +785,11 @@ padding-bottom: 30px;
     background-color: #2196F3;
   }
 
-.social-link{
-  
-}
 
 .social-item:not(:last-child){
   margin-right: 10px;
   }
 
-/* .social-link:hover, 
-.social-link:focus,
-.social-icon:hover,
-.social-icon:focus{
-background-color: #2196F3;
-fill: white;
-  } */
 
 .social-icon {
   width: 20px;
@@ -808,6 +802,9 @@ fill: white;
 
 }
 
+.social-link{
+  
+}
 
 
 .contacts-icon{
